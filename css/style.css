@@ -1,0 +1,26 @@
+.menu{
+    width: 30%;
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+
+.menu a{
+    background: url('/lab7/img/Bullet-ambar.png') no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+
+.menu a:hover{
+    background: url('https://media.giphy.com/media/J47crA9L0GpTBsLMVK/giphy.gif') no-repeat 10px center;
+    border-bottom: 1px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
